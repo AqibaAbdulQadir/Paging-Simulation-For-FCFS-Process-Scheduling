@@ -28,17 +28,16 @@ REQUIREMENTS
 
 Folder Structure
 --------------------
-
-OS_OEL/
-├── headers/    
-│   ├── paging.h
-│   ├── heap.h
-│   └── table.h
-├── main.c
-├── heap.c
-├── table.c
-├── input.txt
-└── readmeS.md
+    .
+    ├── headers/    
+    │   ├── paging.h
+    │   ├── heap.h
+    │   └── table.h
+    ├── main.c
+    ├── heap.c
+    ├── table.c
+    ├── input.txt
+    └── readme.md
 
 CONFIGURATION
 -------------
