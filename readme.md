@@ -33,9 +33,10 @@ Folder Structure
     │   ├── paging.h
     │   ├── heap.h
     │   └── table.h
-    ├── main.c
-    ├── heap.c
-    ├── table.c
+    ├── src/
+        ├── main.c
+        ├── heap.c
+        └── table.c
     ├── input.txt
     └── readme.md
 
@@ -48,8 +49,10 @@ Modify in headers/paging.h:
 
 *Compile and execute by:*
 
-`gcc -Iheaders main.c heap.c table.c -o main`
-`./main`
+```
+gcc -Iheaders src/*.c -o main
+./main
+```
 
 PROJECT STRUCTURE
 -----------------
